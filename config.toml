@@ -1,0 +1,70 @@
+baseurl = "https://decobisu.com/"
+title = "decobisu Site"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+# googleAnalytics = "{your tracking code}"
+
+[taxonomies]
+  series = "series"
+
+[params]
+    author = "Masahiro Hata (@decobisu)"
+    avatar = "avatar.png"
+    favicon = "favicon.ico"
+    description = """
+        IT Infrastructure Engineer 
+    """
+    publicationYear = "2019"
+    listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    singlePageDateFormat = "January 2, 2006"
+    custom_css = ["/css/custom.css"]
+    custom_js = ["/js/custom.js"]
+
+[outputs]
+    section = ["JSON", "HTML"]
+
+[[menu.main]]
+    name = "Blog"
+    pre = "<i class='fa fa-pen-nib fa-lg my-icon'></i>"
+    url = "https://decobisu.hatenablog.com/"
+    weight = 20
+
+[[menu.main]]
+    name = "Twitter"
+    pre = "<i class='fab fa-twitter fa-lg my-icon'></i>"
+    url = "https://twitter.com/decobisu"
+    weight = 30
+
+[[menu.main]]
+    name = "Facebook"
+    pre = "<i class='fab fa-facebook-f fa-lg my-icon'></i>"
+    url = "https://www.facebook.com/masahiro.hata.56"
+    weight = 40
+
+[[menu.main]]
+    name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg my-icon'></i>"
+    url = "https://github.com/decobisu"
+    weight = 50
+
+[[menu.main]]
+    name = "speaker-deck"
+    pre = "<i class='fab fa-speaker-deck fa-lg my-icon'></i>"
+    url = "https://speakerdeck.com/decobisu"
+    weight = 60
+
+[[menu.main]]
+    name = "Tumblr"
+    pre = "<i class='fab fa-tumblr fa-lg my-icon'></i>"
+    url = "https://decobisu.tumblr.com/"
+    weight = 70
+
+[[menu.main]]
+    name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg my-icon'></i>"
+    url = "mailto:decobisu@gmail.com"
+    weight = 80
+
