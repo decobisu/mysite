@@ -1,5 +1,5 @@
-baseurl = "https://decobisu.com/"
-title = "decobisu Site"
+baseurl = "https://decobisu.github.io"
+title = "decobisu.com"
 theme = "pulp"
 canonifyurls = true
 hasCJKLanguage = true
@@ -15,7 +15,7 @@ hasCJKLanguage = true
     avatar = "avatar.png"
     favicon = "favicon.ico"
     description = """
-        IT Infrastructure Engineer 
+        インフラエンジニアやってます 
     """
     publicationYear = "2019"
     listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
